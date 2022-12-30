@@ -1,0 +1,66 @@
+#footer{
+    border-bottom: 5px solid #84A59D;
+    border-top: 5px solid #84A59D;
+    border-radius: 0 0 25px 25px;
+    color: #84A59D;
+    margin-top: 2rem;
+   
+    p{
+        text-align: center;
+        display: block;
+        margin: auto;
+        color: #84A59D;
+        padding: 0.5rem;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 0.5rem;
+        border-bottom: #84A59D solid;
+        width: 75%;
+        margin: auto;
+        img{
+            width: 10%;
+            border: none;
+            border-radius: 0;
+            color: #84A59D;
+            margin: auto;
+            opacity: 50%;
+            transition: 1s;
+
+        }
+        img:hover{
+            opacity: 100%;
+            transform: scale(1.1);
+        }
+
+    
+    }
+    .links{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 1rem;
+        border-bottom: solid #84A59D;
+        width: 75%;
+        margin: auto;
+        font-family: 'Pacifico';
+        a{
+            text-decoration: none;
+            color: #84A59D;
+            font-weight: bold;
+            font-size: 0.5rem;
+            width: 15%;
+            transition: 1s;
+            text-align: center;
+
+        }
+        a:hover{
+            border: solid #84A59D;
+            border-radius: 25px;
+            padding: 0.25rem;
+        }
+    }
+}
